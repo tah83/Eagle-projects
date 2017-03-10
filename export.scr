@@ -1,0 +1,10 @@
+ratsnest
+display none 
+display bottom dimension pads vias
+export image bottom.png monochrome 600;
+display Top -Bottom
+export image top.png monochrome 600;
+display none
+display all
+ripup @;
+export image reference.png monochrome 600;
